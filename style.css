@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.wrap {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    background-color: rgb(138, 59, 59);
+}
+
+button {
+    margin-top: 2rem;
+    padding: 15px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: rgb(138, 59, 59);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    color: white;
+    background-color: gray;
+}
+
+div.content {
+    margin-top: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+div.users {
+    margin-top: 1rem;
+    color: white;
+    border-bottom: 5px solid white;
+}
